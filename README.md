@@ -19,7 +19,7 @@ Usage
 -----
 
 - Android Studio: Right click on your application module and select **New > Other > Android Icons**
-- Eclispe: Right click on your project and select **New > Other... > Android > Android Object > Android Icons**
+- Eclipse: Right click on your project and select **New > Other... > Android > Android Object > Android Icons**
 
 License
 -------
