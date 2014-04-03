@@ -53,10 +53,38 @@
         
     <parameter
         id="includeLdpi"
-        name="Include LDPI"
+        name="LDPI"
         type="boolean"
         default="false"
-        help="If checked, a low density drawable resource will be included" />    
+        help="If checked, a low density drawable resource will be included" />  
+        
+    <parameter
+        id="includeMdpi"
+        name="MDPI"
+        type="boolean"
+        default="true"
+        help="If checked, a medium density drawable resource will be included" />
+    
+    <parameter
+        id="includeHdpi"
+        name="HDPI"
+        type="boolean"
+        default="true"
+        help="If checked, a high density drawable resource will be included" /> 
+        
+    <parameter
+        id="includeXhdpi"
+        name="XHDPI"
+        type="boolean"
+        default="true"
+        help="If checked, an extra high density drawable resource will be included" /> 
+        
+    <parameter
+        id="includeXxhdpi"
+        name="XXHDPI"
+        type="boolean"
+        default="true"
+        help="If checked, an extra extra high density drawable resource will be included" /> 
 
     <globals file="globals.xml.ftl" />
     <execute file="recipe.xml.ftl" />
