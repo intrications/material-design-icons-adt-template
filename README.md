@@ -1,4 +1,4 @@
-Andriodicons ADT Template
+Androidicons ADT Template
 =========================
 
 Android Studio / Eclipse ADT template for including icon resources from [androidicons.com](http://www.androidicons.com/) in your project.
