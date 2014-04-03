@@ -1,7 +1,7 @@
 Andriodicons ADT Template
 =========================
 
-An Android Studio / Eclipse ADT template for including icon resources form [androidicons.com](http://www.androidicons.com/) in your project.
+Android Studio / Eclipse ADT template for including icon resources from [androidicons.com](http://www.androidicons.com/) in your project.
 
 ![menu](menu.png "menu")
 ![template](template.png "template")
@@ -11,7 +11,7 @@ Setup
 
 1. Purchase and download [Androidicons](http://www.androidicons.com/)
 2. Clone or extract the contents of this repo into your IDE templates folder:
-   - Android Studio: `<androidStudio-folder>/plugins/android/lib/templates/other`
+   - Android Studio: `<android-studio-folder>/plugins/android/lib/templates/other`
    - Eclipse: `<android-sdk-folder>/extras/templates/other`
 3. Place your Androidicons assets folder inside `AndroidIcons/root`
 
