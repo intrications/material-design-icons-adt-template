@@ -1,7 +1,7 @@
-Androidicons ADT Template
+Material Design Icons ADT Template
 =========================
 
-Android Studio / Eclipse ADT template for including icon resources from [androidicons.com](http://www.androidicons.com/) in your project.
+Android Studio / Eclipse ADT template for including icon resources from [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons) in your project.
 
 ![menu](menu.png "menu")
 ![template](template.png "template")
@@ -9,22 +9,28 @@ Android Studio / Eclipse ADT template for including icon resources from [android
 Setup
 -----
 
-1. Purchase and download [Androidicons](http://www.androidicons.com/)
-2. Clone or extract the contents of this repo into your IDE templates folder:
+1. Clone this repo
+2. Run `git submodule update --init` in the root folder to download the material-design-icons submodule
+3. Copy the contents of this repo into your IDE templates folder:
    - Android Studio: `<android-studio-folder>/plugins/android/lib/templates/other`
    - Eclipse: `<android-sdk-folder>/extras/templates/other`
-3. Place your Androidicons assets folder inside `AndroidIcons/root`
 
 Usage
 -----
 
-- Android Studio: Right click on your application module and select **New > Other > Android Icons**
-- Eclipse: Right click on your project and select **New > Other... > Android > Android Object > Android Icons**
+- Android Studio: Right click on your application module and select **New > Other > Material Design Icons**
+- Eclipse: Right click on your project and select **New > Other... > Android > Android Object > Material Design Icons**
+
+Thanks
+------
+
+Based on https://github.com/jgilfelt/androidicons-adt-template
 
 License
 -------
 
     Copyright 2014 readyState Software Limited
+    Copyright 2014 Michael Basil
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
