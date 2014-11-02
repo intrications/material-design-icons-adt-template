@@ -1,1 +1,0 @@
-Include your androidicons.com assets folder here. 

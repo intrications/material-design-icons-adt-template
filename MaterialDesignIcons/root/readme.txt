@@ -1,0 +1,1 @@
+Run `git submodule update --init` in the root folder to download the material-design-icons submodule
