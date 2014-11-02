@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<template
+    format="4"
+    revision="1"
+    name="Material Design Icons"
+    description="Creates a new Material Design Icon drawable resource"
+    minApi="4"
+    minBuildApi="16">
+
+    <parameter
+        id="asset"
+        name="Asset"
+        type="enum"
+        default="action/ic_3d_rotation"
+        help="The icon asset" >
+

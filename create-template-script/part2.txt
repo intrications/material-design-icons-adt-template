@@ -1,0 +1,94 @@
+
+    </parameter>
+
+    <parameter
+        id="color"
+        name="Color"
+        type="enum"
+        default="white"
+        help="The icon color" >
+
+        <option id="black">Black</option>
+        <option id="grey600">Grey 600</option>
+        <option id="white">White</option>
+
+    </parameter>
+
+    <parameter
+        id="dp"
+        name="DP"
+        type="enum"
+        default="24dp"
+        help="The icon size in device independent pixels" >
+
+        <option id="18dp">18dp</option>
+        <option id="24dp">24dp</option>
+        <option id="36dp">36dp</option>
+        <option id="48dp">48dp</option>
+
+    </parameter>
+
+    <!--<parameter-->
+        <!--id="includeColor"-->
+        <!--name="Include Color"-->
+        <!--type="boolean"-->
+        <!--default="true"-->
+        <!--help="If checked, the color will be included in the filename" />-->
+
+    <!--<parameter-->
+        <!--id="includeDp"-->
+        <!--name="Include Dp"-->
+        <!--type="boolean"-->
+        <!--default="true"-->
+        <!--help="If checked, the dp will be included in the filename" />-->
+
+    <parameter
+        id="resName"
+        name="Resource Name"
+        type="string"
+        constraints="nonempty"
+        suggest="${asset?substring(asset?index_of('/') + 1)}_${color}_${dp}"
+        default=""
+        help="The name of the drawable resource to create" />
+
+    <parameter
+        id="includeMdpi"
+        name="MDPI"
+        type="boolean"
+        default="true"
+        help="If checked, a medium density drawable resource will be included" />
+
+    <parameter
+        id="includeHdpi"
+        name="HDPI"
+        type="boolean"
+        default="true"
+        help="If checked, a high density drawable resource will be included" />
+
+    <parameter
+        id="includeXhdpi"
+        name="XHDPI"
+        type="boolean"
+        default="true"
+        help="If checked, an extra high density drawable resource will be included" />
+
+    <parameter
+        id="includeXxhdpi"
+        name="XXHDPI"
+        type="boolean"
+        default="true"
+        help="If checked, an extra extra high density drawable resource will be included" />
+
+    <parameter
+        id="includeXxxhdpi"
+        name="XXXHDPI"
+        type="boolean"
+        default="false"
+        help="If checked, an extra extra extra high density drawable resource will be included" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+    <thumbs>
+        <thumb>root/material-design-icons/action/drawable-xxxhdpi/ic_3d_rotation_white_48dp.png</thumb>
+
