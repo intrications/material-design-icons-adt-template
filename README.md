@@ -11,7 +11,7 @@ Setup
 
 1. Clone this repo
 2. Run `git submodule update --init` in the root folder to download the material-design-icons submodule
-3. Copy the contents of the MaterialDesignIcons folder to your IDE templates folder:
+3. Copy the MaterialDesignIcons folder to your IDE templates folder:
    - Android Studio: `<android-studio-folder>/plugins/android/lib/templates/other`
    - Eclipse: `<android-sdk-folder>/extras/templates/other`
 
