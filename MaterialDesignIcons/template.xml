@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <template
     format="4"
-    revision="1"
+    revision="2"
     name="Material Design Icons"
     description="Creates a new Material Design Icon drawable resource"
     minApi="4"
