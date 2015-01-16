@@ -1,0 +1,1 @@
+Delete template.xml and run createtemplatefile.py

@@ -12,12 +12,14 @@ file1.close()
 icons_path = "../MaterialDesignIcons/root/material-design-icons"
 walk = os.listdir(icons_path)
 onlydirs = [f for f in walk if os.path.isdir(join(icons_path, f))]
-onlydirs.remove(".git")
+
+# This line may be optional - if get error "ValueError: list.remove(x): x not in list" then comment it out
+# onlydirs.remove(".git")
 onlydirs.remove("sprites")
 
 for category in onlydirs:
     print category
-    walkdir = os.listdir(icons_path + '/' + category + "/svg")
+    walkdir = os.listdir(icons_path + '/' + category + "/svg/design")
     walkdirremovedsvgbit = []
     for dir2 in walkdir:
         walkdirremovedsvgbit.append(dir2[:-9])
@@ -36,7 +38,7 @@ for color in ["black", "grey600", "white"]:
 
     for category in onlydirs:
         print category
-        walkdir = os.listdir(icons_path + '/' + category + "/svg")
+        walkdir = os.listdir(icons_path + '/' + category + "/svg/design")
         walkdirremovedsvgbit = []
         for dir2 in walkdir:
             walkdirremovedsvgbit.append(dir2[:-9])

@@ -43,6 +43,7 @@
         <option id="action/ic_bookmark_outline">action/ic_bookmark_outline</option>
         <option id="action/ic_bug_report">action/ic_bug_report</option>
         <option id="action/ic_cached">action/ic_cached</option>
+        <option id="action/ic_check_circle">action/ic_check_circle</option>
         <option id="action/ic_class">action/ic_class</option>
         <option id="action/ic_credit_card">action/ic_credit_card</option>
         <option id="action/ic_dashboard">action/ic_dashboard</option>
@@ -55,7 +56,7 @@
         <option id="action/ic_exit_to_app">action/ic_exit_to_app</option>
         <option id="action/ic_explore">action/ic_explore</option>
         <option id="action/ic_extension">action/ic_extension</option>
-        <option id="action/ic_face_unlock">action/ic_face_unlock</option>
+        <option id="action/ic_face">action/ic_face</option>
         <option id="action/ic_favorite">action/ic_favorite</option>
         <option id="action/ic_favorite_outline">action/ic_favorite_outline</option>
         <option id="action/ic_find_in_page">action/ic_find_in_page</option>
@@ -894,6 +895,7 @@
         <thumb color="black" asset="action/ic_bookmark_outline">root/material-design-icons/action/drawable-xxxhdpi/ic_bookmark_outline_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_bug_report">root/material-design-icons/action/drawable-xxxhdpi/ic_bug_report_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_cached">root/material-design-icons/action/drawable-xxxhdpi/ic_cached_black_48dp.png</thumb>
+        <thumb color="black" asset="action/ic_check_circle">root/material-design-icons/action/drawable-xxxhdpi/ic_check_circle_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_class">root/material-design-icons/action/drawable-xxxhdpi/ic_class_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_credit_card">root/material-design-icons/action/drawable-xxxhdpi/ic_credit_card_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_dashboard">root/material-design-icons/action/drawable-xxxhdpi/ic_dashboard_black_48dp.png</thumb>
@@ -906,7 +908,7 @@
         <thumb color="black" asset="action/ic_exit_to_app">root/material-design-icons/action/drawable-xxxhdpi/ic_exit_to_app_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_explore">root/material-design-icons/action/drawable-xxxhdpi/ic_explore_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_extension">root/material-design-icons/action/drawable-xxxhdpi/ic_extension_black_48dp.png</thumb>
-        <thumb color="black" asset="action/ic_face_unlock">root/material-design-icons/action/drawable-xxxhdpi/ic_face_unlock_black_48dp.png</thumb>
+        <thumb color="black" asset="action/ic_face">root/material-design-icons/action/drawable-xxxhdpi/ic_face_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_favorite">root/material-design-icons/action/drawable-xxxhdpi/ic_favorite_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_favorite_outline">root/material-design-icons/action/drawable-xxxhdpi/ic_favorite_outline_black_48dp.png</thumb>
         <thumb color="black" asset="action/ic_find_in_page">root/material-design-icons/action/drawable-xxxhdpi/ic_find_in_page_black_48dp.png</thumb>
@@ -1651,6 +1653,7 @@
         <thumb color="grey600" asset="action/ic_bookmark_outline">root/material-design-icons/action/drawable-xxxhdpi/ic_bookmark_outline_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_bug_report">root/material-design-icons/action/drawable-xxxhdpi/ic_bug_report_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_cached">root/material-design-icons/action/drawable-xxxhdpi/ic_cached_grey600_48dp.png</thumb>
+        <thumb color="grey600" asset="action/ic_check_circle">root/material-design-icons/action/drawable-xxxhdpi/ic_check_circle_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_class">root/material-design-icons/action/drawable-xxxhdpi/ic_class_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_credit_card">root/material-design-icons/action/drawable-xxxhdpi/ic_credit_card_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_dashboard">root/material-design-icons/action/drawable-xxxhdpi/ic_dashboard_grey600_48dp.png</thumb>
@@ -1663,7 +1666,7 @@
         <thumb color="grey600" asset="action/ic_exit_to_app">root/material-design-icons/action/drawable-xxxhdpi/ic_exit_to_app_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_explore">root/material-design-icons/action/drawable-xxxhdpi/ic_explore_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_extension">root/material-design-icons/action/drawable-xxxhdpi/ic_extension_grey600_48dp.png</thumb>
-        <thumb color="grey600" asset="action/ic_face_unlock">root/material-design-icons/action/drawable-xxxhdpi/ic_face_unlock_grey600_48dp.png</thumb>
+        <thumb color="grey600" asset="action/ic_face">root/material-design-icons/action/drawable-xxxhdpi/ic_face_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_favorite">root/material-design-icons/action/drawable-xxxhdpi/ic_favorite_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_favorite_outline">root/material-design-icons/action/drawable-xxxhdpi/ic_favorite_outline_grey600_48dp.png</thumb>
         <thumb color="grey600" asset="action/ic_find_in_page">root/material-design-icons/action/drawable-xxxhdpi/ic_find_in_page_grey600_48dp.png</thumb>
@@ -2408,6 +2411,7 @@
         <thumb color="white" asset="action/ic_bookmark_outline">root/material-design-icons/action/drawable-xxxhdpi/ic_bookmark_outline_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_bug_report">root/material-design-icons/action/drawable-xxxhdpi/ic_bug_report_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_cached">root/material-design-icons/action/drawable-xxxhdpi/ic_cached_white_48dp.png</thumb>
+        <thumb color="white" asset="action/ic_check_circle">root/material-design-icons/action/drawable-xxxhdpi/ic_check_circle_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_class">root/material-design-icons/action/drawable-xxxhdpi/ic_class_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_credit_card">root/material-design-icons/action/drawable-xxxhdpi/ic_credit_card_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_dashboard">root/material-design-icons/action/drawable-xxxhdpi/ic_dashboard_white_48dp.png</thumb>
@@ -2420,7 +2424,7 @@
         <thumb color="white" asset="action/ic_exit_to_app">root/material-design-icons/action/drawable-xxxhdpi/ic_exit_to_app_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_explore">root/material-design-icons/action/drawable-xxxhdpi/ic_explore_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_extension">root/material-design-icons/action/drawable-xxxhdpi/ic_extension_white_48dp.png</thumb>
-        <thumb color="white" asset="action/ic_face_unlock">root/material-design-icons/action/drawable-xxxhdpi/ic_face_unlock_white_48dp.png</thumb>
+        <thumb color="white" asset="action/ic_face">root/material-design-icons/action/drawable-xxxhdpi/ic_face_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_favorite">root/material-design-icons/action/drawable-xxxhdpi/ic_favorite_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_favorite_outline">root/material-design-icons/action/drawable-xxxhdpi/ic_favorite_outline_white_48dp.png</thumb>
         <thumb color="white" asset="action/ic_find_in_page">root/material-design-icons/action/drawable-xxxhdpi/ic_find_in_page_white_48dp.png</thumb>
