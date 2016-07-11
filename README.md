@@ -1,6 +1,12 @@
 Material Design Icons ADT Template
 =========================
 
+## Deprecated
+
+This is now built into Android Studio using vector icons:
+
+https://developer.android.com/studio/write/vector-asset-studio.html#materialicon
+
 Android Studio / Eclipse ADT template for including icon resources from [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons) in your project.
 
 ![menu](menu.png "menu")
